@@ -6,23 +6,23 @@ This program is only for non-commercial use.
 
 # name:                Unbeatable_Tictactoe
 # version:             0.4.0.0
-synopsis:
-description:
-bug-reports:
+* synopsis:
+* description:
+* bug-reports:
 * license:
 # license-file:        LICENSE
 # author:              U70-TK
 # maintainer:          wtkuan@163.com
--- copyright:
--- category:
+* -- copyright:
+* -- category:
 # build-type:          Simple
 # extra-source-files:  CHANGELOG.md    
-            Descriptions of modification of each version, and things need to be improved.
+    Descriptions of modification of each version, and things need to be improved.
 
-* executable tictactoe
+##  executable tictactoe
 ##  main-is:             Tictactoe
 ##  other-modules:       test     ## to test the rate of success. 
-##  -- other-extensions:
+##  other-extensions:
     backgroud.jpg      ## The first backgroud.
     backgroud2.jpg     ## The second backgroud.
     O.jpg              ## The case O operate or win.
@@ -36,7 +36,7 @@ bug-reports:
 ##  -- py-source-dirs:  os,sys,pyautogui,time,pygame
 ##  default-language:    python3
 
-* test-suite tictactoe-test
+##  test-suite tictactoe-test
 ##  type:               exitcode-stdio-1.0
 ##  main-is:            
 ##  other-modules:      TicTacToe
