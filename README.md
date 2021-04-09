@@ -14,7 +14,8 @@ bug-reports:
 -- copyright:
 -- category:
 # build-type:          Simple
-# extra-source-files:  CHANGELOG.md    ##Descriptions of modification of each version, and things need to be improved.
+# extra-source-files:  CHANGELOG.md    
+            Descriptions of modification of each version, and things need to be improved.
 
 * executable tictactoe
 ##  main-is:             Tictactoe
